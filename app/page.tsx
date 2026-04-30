@@ -121,10 +121,14 @@ export default function Home() {
                   <ArrowRight className="group-hover:translate-x-1 transition-transform" size={20} />
                 </Link>
 
-                <button className="px-6 sm:px-8 py-3 border-2 border-primary-500 rounded-full font-semibold hover:bg-primary-500/10 transition-all duration-300 flex items-center justify-center gap-2 text-sm sm:text-base">
+                <a
+                  href="/images/Mahnoor_Resume.pdf"
+                  download="Mahnoor_Khalid_Resume.pdf"
+                  className="px-6 sm:px-8 py-3 border-2 border-primary-500 rounded-full font-semibold hover:bg-primary-500/10 transition-all duration-300 flex items-center justify-center gap-2 text-sm sm:text-base"
+                >
                   <Download size={20} />
                   Download CV
-                </button>
+                </a>
 
                 <a
                   href="https://wa.me/923332455342?text=Hi%2C%20I%20found%20your%20portfolio%20and%20would%20like%20to%20connect!"
