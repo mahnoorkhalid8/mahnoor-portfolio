@@ -260,6 +260,7 @@ export default function Home() {
                 { name: "Figma", logo: "https://cdn.simpleicons.org/figma/F24E1E" },
                 { name: "Streamlit", logo: "https://cdn.simpleicons.org/streamlit/FF4B4B" },
                 { name: "Chainlit", logo: "https://cdn.simpleicons.org/chainlink/375BD2" },
+                { name: "Sanity", logo: "https://cdn.simpleicons.org/sanity/F03E2F" },
                 { name: "SpecKit Plus", logo: "https://cdn.simpleicons.org/markdown/06B6D4" },
               ].map((tech, index) => (
                 <div
@@ -299,6 +300,7 @@ export default function Home() {
                 { name: "Figma", logo: "https://cdn.simpleicons.org/figma/F24E1E" },
                 { name: "Streamlit", logo: "https://cdn.simpleicons.org/streamlit/FF4B4B" },
                 { name: "Chainlit", logo: "https://cdn.simpleicons.org/chainlink/375BD2" },
+                { name: "Sanity", logo: "https://cdn.simpleicons.org/sanity/F03E2F" },
                 { name: "SpecKit Plus", logo: "https://cdn.simpleicons.org/markdown/06B6D4" },
               ].map((tech, index) => (
                 <div
