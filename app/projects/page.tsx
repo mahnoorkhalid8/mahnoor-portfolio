@@ -8,9 +8,9 @@ const projects = [
     title: "Personal AI Employee",
     description: "Revolutionary Digital FTE (Full-Time Employee) built with Claude Code that works 24/7 as a proactive business partner. Features the 'Monday Morning CEO Briefing' that autonomously audits bank transactions and tasks to report revenue and bottlenecks. Built with Claude Code, Obsidian for local knowledge base, Python watchers for Gmail/WhatsApp monitoring, and MCP servers for external actions. Delivers 85-90% cost savings compared to human employees.",
     image: "/images/personal-ai.PNG",
-    tags: ["Claude Code", "Obsidian", "Python", "MCP", "AI Agent", "Automation"],
+    tags: ["Claude Code", "Python", "AI Agent", "Automation"],
     github: "https://github.com/mahnoorkhalid8/hackathon-0",
-    demo: "https://github.com/mahnoorkhalid8/hackathon-0",
+    demo: "https://www.youtube.com/watch?v=agCZcYYa0ag&list=PLwO2EHH6yMe6a-zjSO3megqor8jrkQzsr",
   },
   {
     title: "Watch Website",
