@@ -115,16 +115,16 @@ export default function Home() {
               >
                 <Link
                   href="/projects"
-                  className="group px-6 sm:px-8 py-3 bg-gradient-to-r from-primary-500 to-accent-500 rounded-full font-semibold hover:shadow-lg hover:shadow-primary-500/50 transition-all duration-300 flex items-center justify-center gap-2 text-sm sm:text-base"
+                  className="group px-6 sm:px-8 py-3 bg-primary-500 rounded-full font-semibold hover:bg-primary-600 transition-all duration-300 flex items-center justify-center gap-2 text-sm sm:text-base"
                 >
                   View My Work
                   <ArrowRight className="group-hover:translate-x-1 transition-transform" size={20} />
                 </Link>
 
                 <a
-                  href="/images/Mahnoor_Resume.pdf"
+                  href="/images/Mahnoor_Khalid_Resume.pdf"
                   download="Mahnoor_Khalid_Resume.pdf"
-                  className="px-6 sm:px-8 py-3 border-2 border-primary-500 rounded-full font-semibold hover:bg-primary-500/10 transition-all duration-300 flex items-center justify-center gap-2 text-sm sm:text-base"
+                  className="px-6 sm:px-8 py-3 border-2 border-primary-500 rounded-full font-semibold hover:bg-primary-500/20 transition-all duration-300 flex items-center justify-center gap-2 text-sm sm:text-base"
                 >
                   <Download size={20} />
                   Download CV
@@ -134,7 +134,7 @@ export default function Home() {
                   href="https://wa.me/923332455342?text=Hi%2C%20I%20found%20your%20portfolio%20and%20would%20like%20to%20connect!"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="px-6 sm:px-8 py-3 border-2 border-primary-500 rounded-full font-semibold hover:bg-primary-500/10 transition-all duration-300 flex items-center justify-center gap-2 text-sm sm:text-base"
+                  className="px-6 sm:px-8 py-3 border-2 border-primary-500 rounded-full font-semibold hover:bg-primary-500/20 transition-all duration-300 flex items-center justify-center gap-2 text-sm sm:text-base"
                 >
                   <MessageCircle size={20} />
                   WhatsApp
@@ -153,20 +153,19 @@ export default function Home() {
                 {/* Animated background circles */}
                 <motion.div
                   animate={{
-                    scale: [1, 1.2, 1],
-                    rotate: [0, 180, 360],
+                    scale: [1, 1.1, 1],
                   }}
                   transition={{
-                    duration: 20,
+                    duration: 8,
                     repeat: Infinity,
-                    ease: "linear",
+                    ease: "easeInOut",
                   }}
-                  className="absolute inset-0 bg-gradient-to-r from-primary-500/20 to-accent-500/20 rounded-full blur-3xl"
+                  className="absolute inset-0 bg-primary-500/10 rounded-full blur-3xl"
                 />
 
                 {/* Profile image placeholder */}
-                <div className="relative z-10 w-full h-full rounded-full bg-gradient-to-br from-primary-500 to-accent-500 p-1">
-                  <div className="w-full h-full rounded-full bg-slate-800 flex items-center justify-center overflow-hidden">
+                <div className="relative z-10 w-full h-full rounded-full bg-primary-500 p-1">
+                  <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center overflow-hidden">
                     <img
                       src="/images/profile.jpeg"
                       alt="Mahnoor Khalid"
@@ -183,12 +182,12 @@ export default function Home() {
                 <motion.div
                   animate={{ y: [0, -20, 0] }}
                   transition={{ duration: 3, repeat: Infinity }}
-                  className="absolute -top-4 -right-4 w-20 h-20 bg-primary-500/20 rounded-full blur-xl"
+                  className="absolute -top-4 -right-4 w-20 h-20 bg-primary-500/10 rounded-full blur-xl"
                 />
                 <motion.div
                   animate={{ y: [0, 20, 0] }}
                   transition={{ duration: 4, repeat: Infinity }}
-                  className="absolute -bottom-4 -left-4 w-32 h-32 bg-accent-500/20 rounded-full blur-xl"
+                  className="absolute -bottom-4 -left-4 w-32 h-32 bg-primary-400/10 rounded-full blur-xl"
                 />
               </div>
             </motion.div>
@@ -537,7 +536,7 @@ export default function Home() {
                   e.preventDefault();
                   document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' });
                 }}
-                className="w-full px-6 py-3 bg-gradient-to-r from-primary-500 to-accent-500 rounded-xl font-semibold hover:shadow-lg hover:shadow-primary-500/50 transition-all duration-300 flex items-center justify-center gap-2"
+                className="w-full px-6 py-3 bg-primary-500 rounded-xl font-semibold hover:bg-primary-600 transition-all duration-300 flex items-center justify-center gap-2"
               >
                 Let's Discuss
                 <ArrowRight size={18} />
@@ -572,7 +571,7 @@ export default function Home() {
                   e.preventDefault();
                   document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' });
                 }}
-                className="w-full px-6 py-3 bg-gradient-to-r from-primary-500 to-accent-500 rounded-xl font-semibold hover:shadow-lg hover:shadow-primary-500/50 transition-all duration-300 flex items-center justify-center gap-2"
+                className="w-full px-6 py-3 bg-primary-500 rounded-xl font-semibold hover:bg-primary-600 transition-all duration-300 flex items-center justify-center gap-2"
               >
                 Let's Discuss
                 <ArrowRight size={18} />
@@ -606,7 +605,7 @@ export default function Home() {
                   e.preventDefault();
                   document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' });
                 }}
-                className="w-full px-6 py-3 bg-gradient-to-r from-primary-500 to-accent-500 rounded-xl font-semibold hover:shadow-lg hover:shadow-primary-500/50 transition-all duration-300 flex items-center justify-center gap-2"
+                className="w-full px-6 py-3 bg-primary-500 rounded-xl font-semibold hover:bg-primary-600 transition-all duration-300 flex items-center justify-center gap-2"
               >
                 Let's Discuss
                 <ArrowRight size={18} />
@@ -675,7 +674,7 @@ export default function Home() {
                     alt={project.title}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                     onError={(e) => {
-                      e.currentTarget.src = `https://via.placeholder.com/600x400/${index % 2 === 0 ? '0ea5e9' : 'd946ef'}/ffffff?text=${encodeURIComponent(project.title)}`;
+                      e.currentTarget.src = `https://via.placeholder.com/600x400/10b981/ffffff?text=${encodeURIComponent(project.title)}`;
                     }}
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent opacity-60" />
@@ -735,7 +734,7 @@ export default function Home() {
           >
             <Link
               href="/projects"
-              className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-primary-500 to-accent-500 rounded-xl font-semibold hover:shadow-lg hover:shadow-primary-500/50 transition-all duration-300"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-primary-500 rounded-xl font-semibold hover:bg-primary-600 transition-all duration-300"
             >
               View All Projects
               <ArrowRight size={20} />
@@ -834,7 +833,7 @@ export default function Home() {
                             ease: "easeOut",
                           }}
                           viewport={{ once: true }}
-                          className="h-full bg-gradient-to-r from-primary-500 to-accent-500 rounded-full"
+                          className="h-full bg-primary-500 rounded-full"
                         />
                       </div>
                     </motion.div>
@@ -1049,7 +1048,7 @@ export default function Home() {
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="w-full group px-8 py-4 bg-gradient-to-r from-primary-500 to-accent-500 rounded-xl font-semibold hover:shadow-lg hover:shadow-primary-500/50 transition-all duration-300 flex items-center justify-center gap-3 disabled:opacity-50 disabled:cursor-not-allowed"
+                  className="w-full group px-8 py-4 bg-primary-500 rounded-xl font-semibold hover:bg-primary-600 transition-all duration-300 flex items-center justify-center gap-3 disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                   {isSubmitting ? (
                     <>

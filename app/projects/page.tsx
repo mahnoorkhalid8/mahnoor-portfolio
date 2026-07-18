@@ -114,10 +114,10 @@ export default function ProjectsPage() {
                   alt={project.title}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   onError={(e) => {
-                    e.currentTarget.src = `https://via.placeholder.com/600x400/${index % 2 === 0 ? '0ea5e9' : 'd946ef'}/ffffff?text=${encodeURIComponent(project.title)}`;
+                    e.currentTarget.src = `https://via.placeholder.com/600x400/10b981/ffffff?text=${encodeURIComponent(project.title)}`;
                   }}
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent opacity-60" />
+                <div className="absolute inset-0 bg-black/40" />
               </div>
 
               {/* Project Content */}
@@ -183,7 +183,7 @@ export default function ProjectsPage() {
               href="https://github.com/mahnoorkhalid8?tab=repositories"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-slate-700 to-slate-800 rounded-xl font-semibold hover:shadow-lg hover:shadow-slate-500/50 transition-all duration-300 border border-slate-600"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-slate-800 rounded-xl font-semibold hover:bg-slate-700 transition-all duration-300 border border-slate-600"
             >
               <Github size={20} />
               View all 90+ repos on GitHub
@@ -192,7 +192,7 @@ export default function ProjectsPage() {
               href="https://vercel.com/mahnoor-khalids-projects"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-primary-500 to-accent-500 rounded-xl font-semibold hover:shadow-lg hover:shadow-primary-500/50 transition-all duration-300"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-primary-500 rounded-xl font-semibold hover:bg-primary-600 transition-all duration-300"
             >
               <ExternalLink size={20} />
               View projects on Vercel
