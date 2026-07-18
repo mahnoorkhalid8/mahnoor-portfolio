@@ -5,6 +5,14 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
+    title: "Customer Support Agent",
+    description: "AI-powered customer support agent that provides intelligent, automated assistance to handle customer queries efficiently. Built to streamline customer service operations with smart response generation and query handling. Features advanced AI capabilities for understanding customer needs and delivering accurate, helpful responses in real-time.",
+    image: "/images/customer-support-agent.PNG",
+    tags: ["AI Agent", "Customer Support", "Automation", "Python"],
+    github: "https://github.com/mahnoorkhalid8/customer-support-employee",
+    demo: "https://www.youtube.com/watch?v=dCUJVhtWjlQ",
+  },
+  {
     title: "Personal AI Employee",
     description: "Revolutionary Digital FTE (Full-Time Employee) built with Claude Code that works 24/7 as a proactive business partner. Features the 'Monday Morning CEO Briefing' that autonomously audits bank transactions and tasks to report revenue and bottlenecks. Built with Claude Code, Obsidian for local knowledge base, Python watchers for Gmail/WhatsApp monitoring, and MCP servers for external actions. Delivers 85-90% cost savings compared to human employees.",
     image: "/images/personal-ai.PNG",
